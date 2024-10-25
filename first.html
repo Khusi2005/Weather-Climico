@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Climico</p>
+        </div>
+        <input type="checkbox" id="nav-check" hidden>
+        <nav>
+            <div class="logo">
+                <p>Climico</p>
+            </div>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Select city</a>
+                    <ul class="cities">
+                        <li><a href="#">Kolkata</a></li>
+                        <li><a href="#">Delhi</a></li>
+                        <li><a href="#">Mumbai</a></li>
+                        <li><a href="#">Chennai</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Weather Details</a></li>
+            </ul>
+        </nav>
+        <label for="nav-check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <div class="weather-app">
+        <div class="container">
+            <div class="city-time">
+                <h1 class="place"><pre>Kolkata </pre></h1>
+                <h3 class="date"><pre>25 Oct 2024 </pre></h3>
+                <h3 class="time">7:45</h3>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <h2>Weather Details</h2>
+            <div class="details">
+                <ul>
+                    <li>Temperature: 24°C</li>
+                    <li>Humidity: 96%</li>
+                    <li>Wind Speed: 18 km/h</li>
+                    <li>Condition: Clear</li>
+                    <li>UV Index: Low</li>
+                    <li>Sunrise: 5:42 AM</li>
+                    <li>Sunset: 5:06 PM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
